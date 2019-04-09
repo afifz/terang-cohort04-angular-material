@@ -1,4 +1,11 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 
-@Component
+@Component({
+  selector: 'trg-photo',
+  templateUrl: 'photo-listpage.html',
+  styleUrls: ['photo-listpage.scss']
+})
+
+export class PhotoListpage extends
+
