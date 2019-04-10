@@ -11,5 +11,5 @@ export class PhotoDataSource extends DataSource<any> {
   }
   disconnect(){
   }
-  
+
 }
