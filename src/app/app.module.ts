@@ -11,13 +11,13 @@ import {AcademyModule} from './academy/academy.module';
 import {AcademyService} from '../services/academy.service';
 import {DashboardModule} from './dashboard/dashboard.module';
 import {CohortStatusPipe} from './academy/cohort-status.pipe';
-import {PhotoListpage} from './photo/photo-listpage';
+import {UserModule} from './user/user-module';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhotoListpage,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +28,7 @@ import {PhotoListpage} from './photo/photo-listpage';
     MainModule,
     DashboardModule,
     AcademyModule,
+    UserModule,
   ],
   providers: [AcademyService],
   bootstrap: [AppComponent]

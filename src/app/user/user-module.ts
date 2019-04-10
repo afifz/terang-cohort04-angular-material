@@ -29,7 +29,7 @@ import {MatTableModule} from '@angular/material/table';
 // import {CohortDetailPage} from './cohort-detail.page';
 // import {CohortStatusPipe} from './cohort-status.pipe';
 // import {ApprenticeCreatorDialog} from './apprentice-creator.dialog';
-import {PhotoListpage} from './photo-listpage';
+import {UserListPage} from './user-list.page';
 
 @NgModule({
   imports: [
@@ -59,14 +59,12 @@ import {PhotoListpage} from './photo-listpage';
 
   ],
   declarations: [
-    PhotoListpage,
+    UserListPage,
   ],
   exports: [],
-  entryComponents: [
-    ApprenticeCreatorDialog,
-  ]
+  entryComponents: []
 })
-export class PhotoModule {
+export class UserModule {
 }
 
 
