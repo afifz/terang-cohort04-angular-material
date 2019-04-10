@@ -17,7 +17,7 @@ import {
   MatCheckboxModule,
   MatChipsModule,
   MatNativeDateModule,
-  MatPaginatorModule, MatSnackBar, MatSnackBarModule,
+ // MatPaginatorModule, MatSnackBar, MatSnackBarModule,
   MatSortModule,
   MatTooltipModule
 } from '@angular/material';
@@ -30,6 +30,7 @@ import {MatTableModule} from '@angular/material/table';
 // import {CohortStatusPipe} from './cohort-status.pipe';
 // import {ApprenticeCreatorDialog} from './apprentice-creator.dialog';
 import {UserListPage} from './user-list.page';
+import {UserDetailPage} from '../photo/photo-detailpage';
 
 @NgModule({
   imports: [
@@ -49,17 +50,18 @@ import {UserListPage} from './user-list.page';
     MatDatepickerModule,
     MatNativeDateModule,
     MatTableModule,
-    MatPaginatorModule,
+   // MatPaginatorModule,
     MatSortModule,
     MatCheckboxModule,
     MatTooltipModule,
     MatChipsModule,
     MatButtonToggleModule,
-    MatSnackBarModule,
+   // MatSnackBarModule,
 
   ],
   declarations: [
     UserListPage,
+    UserDetailPage
   ],
   exports: [],
   entryComponents: []
