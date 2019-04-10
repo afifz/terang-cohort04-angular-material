@@ -10,9 +10,9 @@ import {appRoutes} from './app.routes';
 import {AcademyModule} from './academy/academy.module';
 import {AcademyService} from '../services/academy.service';
 import {DashboardModule} from './dashboard/dashboard.module';
-import {CohortStatusPipe} from './academy/cohort-status.pipe';
+// import {CohortStatusPipe} from './academy/cohort-status.pipe';
 import {UserModule} from './user/user-module';
-
+// import {UserDetailPage} from './photo/photo-detailpage';
 
 
 @NgModule({
