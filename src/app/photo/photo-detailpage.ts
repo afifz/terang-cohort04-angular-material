@@ -7,7 +7,7 @@ import {UserService} from '../../services/user.service';
 
 @Component({
   selector: 'trg-photo-detail',
-  templateUrl: './photo-detailpage.html',
+  templateUrl: 'user-detailpage.html',
   styleUrls: ['./users-detailpage.scss']
 })
 
