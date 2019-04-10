@@ -1,15 +1,17 @@
 import {Observable} from 'rxjs';
 import {DataSource} from '@angular/cdk/collections';
-import {PhotoService} from '../../services/photo.service';
+import {UserService} from '../../services/user.service';
+import {User} from './photo-model';
 
 export class UserDataSource extends DataSource<any> {
-  constructor (private photoService: PhotoService) {
+  constructor (private userService: UserService) {
     super();
   }
-  connect(): Observable<[]> {
-    return this.photoService.findPhoto();
+  connect(): Observable<User[]> {
+    return this.userService.findUser();
   }
   disconnect(){
   }
-
 }
+
+
