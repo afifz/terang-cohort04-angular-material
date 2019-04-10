@@ -26,16 +26,15 @@
           <mat-cell *matCellDef="let row"> {{row.username}}</mat-cell>
         </ng-container>
 
-<!--        <mat-header-row *matHeaderRowDef="columns"></mat-header-row>-->
-<!--        <mat-row *matRowDef="let row; columns: columns;"-->
-<!--                 (click)="view(row)"></mat-row>-->
-
         <!-- Email Column -->
         <ng-container matColumnDef="email">
           <mat-header-cell *matHeaderCellDef>Email</mat-header-cell>
           <mat-cell *matCellDef="let row"> {{row.email}}</mat-cell>
         </ng-container>
 
+        <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: columns;"
+                 (click)="view(row)"></mat-row>
       </mat-table>
 
     </div>

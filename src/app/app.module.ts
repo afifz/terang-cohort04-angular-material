@@ -12,6 +12,7 @@ import {AcademyService} from '../services/academy.service';
 import {DashboardModule} from './dashboard/dashboard.module';
 // import {CohortStatusPipe} from './academy/cohort-status.pipe';
 import {UserModule} from './user/user-module';
+import {UserService} from '../services/user.service';
 // import {UserDetailPage} from './photo/photo-detailpage';
 
 
@@ -30,7 +31,7 @@ import {UserModule} from './user/user-module';
     AcademyModule,
     UserModule,
   ],
-  providers: [AcademyService],
+  providers: [AcademyService, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

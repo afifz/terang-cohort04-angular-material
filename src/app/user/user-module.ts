@@ -30,7 +30,7 @@ import {MatTableModule} from '@angular/material/table';
 // import {CohortStatusPipe} from './cohort-status.pipe';
 // import {ApprenticeCreatorDialog} from './apprentice-creator.dialog';
 import {UserListPage} from './user-list.page';
-import {UserDetailPage} from '../photo/photo-detailpage';
+import {UserDetailPage} from '../photo/user-detailpage';
 
 @NgModule({
   imports: [
